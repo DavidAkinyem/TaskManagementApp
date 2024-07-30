@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task Name"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textViewTaskPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Priority"
+        android:textSize="14sp"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:id="@+id/textViewTaskLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level"
+        android:textSize="14sp" />
+
+</LinearLayout>
